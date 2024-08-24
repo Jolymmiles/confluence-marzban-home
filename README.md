@@ -1,6 +1,6 @@
 # confluence-marzban-home
 
-![image](https://github.com/user-attachments/assets/ca41b741-e5db-499b-a55f-7124f8998773)
+![image](https://github.com/user-attachments/assets/889f8383-59eb-4d30-ba28-a4c6a1701578)
 
 
 # Installation Guide for Marzban Home Template
