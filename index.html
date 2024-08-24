@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в Confluence</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f4f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            width: 350px;
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 120px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #0052cc;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dfe1e6;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0052cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0747a6;
+        }
+        .help-links {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .help-links a {
+            color: #0052cc;
+            text-decoration: none;
+        }
+        .help-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="logo">
+        <img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png" alt="Confluence">
+    </div>
+    <h2>Войти в Confluence</h2>
+    <form>
+        <input type="text" id="username" name="username" placeholder="Адрес электронной почты">
+
+        <input type="password" id="password" name="password" placeholder="Введите пароль">
+
+        <button type="submit">Войти</button>
+    </form>
+    <div class="help-links">
+        <a href="#">Не удается войти?</a> • <a href="#">Создать аккаунт</a>
+    </div>
+</div>
+
+</body>
+</html>
