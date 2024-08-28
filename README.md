@@ -39,3 +39,23 @@ sudo wget https://raw.githubusercontent.com/Jolymmiles/confluence-marzban-home/m
 ```
 
 This command will download the `index.html` file and place it in the `/var/lib/marzban/templates/home/` directory.
+
+## Step 3: Marzban .env
+
+```bash
+nano /opt/marzban/.env
+```
+
+Set CUSTOM_TEMPLATES_DIRECTORY to "/var/lib/marzban/templates/"
+```
+CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"
+```
+
+## Step 4: Restart Marzban
+
+```bash
+marzban restart
+```
+
+
+
